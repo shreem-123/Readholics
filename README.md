@@ -8,7 +8,10 @@ Key Functionalities:-
 4.	Maintaining/updating metadata of the books borrowed
 5.	Listing top 'n' recommended books of each genre , based on the mostly borrowed by the users of the library in a particular genre
 
-So, this is a library management application that enables one to manage library as admin but also allows users to get recommendations as per genre of their choice. this project solely uses SpringBoot and leverages it various functionalities by integrating dependencies. like mysql-connector, Spring Web, Spring Data JPA , JDBC API enables one to connect to database and JPA repository provides several predefined functions to fetch data.
+So, this is a library management application that enables one to manage library as admin but also allows users to get recommendations as per genre of their choice. this project solely uses SpringBoot and leverages it various functionalities by integrating dependencies. Like mysql-connector, Spring Web, Spring Data JPA , JDBC API enables one to connect to database and JPA repository provides several predefined functions to fetch data.
+
+Also makes use of Postman & MySQL.
+
 ![WhatsApp Image 2024-06-16 at 10 27 45_c1ac0c26](https://github.com/shreem-123/Readholics/assets/96364929/9f458276-cfb6-430b-96d1-36c3a36d0ada)
 
  Book Entity 
