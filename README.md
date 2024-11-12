@@ -315,3 +315,28 @@ Output:
 }
 ]
 
+Execution Commands
+Navigate to the Project Directory: Go to the main project directory where pom.xml is located:
+
+```
+cd /path/to/Readholics-main/Readholics-main
+```
+Build the Project: Use Maven to build the project. This will compile the code, resolve dependencies, and package the application:
+
+```
+./mvnw clean install
+```
+For Windows: Use mvnw.cmd instead:
+```
+mvnw.cmd clean install
+```
+Run the Application: To start the Spring Boot application:
+```
+./mvnw spring-boot:run
+```
+On Windows:
+```
+mvnw.cmd spring-boot:run
+```
+Access the Application: By default, Spring Boot applications run on http://localhost:8080. You can open this URL in a browser to interact with the application.
+
